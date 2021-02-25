@@ -5,7 +5,6 @@ from bottle import route, run, request
 import spotipy
 from spotipy import oauth2
 
-PORT_NUMBER = 8080
 SPOTIPY_CLIENT_ID = '6bdd6d1ebf3747a99b78ccd3938e9b75'
 SPOTIPY_CLIENT_SECRET = '7023ea1048b6437784880f05d37708f5'
 SPOTIPY_REDIRECT_URI = 'http://localhost:8080'
